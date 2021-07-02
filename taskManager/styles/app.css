@@ -1,0 +1,28 @@
+
+main {
+    display: flex;
+}
+#capture-form{
+    flex: 3;
+}
+#list{
+    flex: 4;
+}
+i:hover{
+    cursor: pointer;
+}
+.task{
+    display: flex;
+}
+.task .important{
+    flex: 1;
+}
+.task .description{
+    flex: 5;
+}
+.task .due-date{
+    flex: 1;
+}
+.task .location{
+    flex: 1;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+    <title>Task Manager | by JG</title>
+</head>
+<body>
+    <header>
+        <h1>To Do List</h1>
+    </header>
+<hr>
+    <main class="container-fluid px-0">
+        <section id="">
+
+        </section>
+
+        <section id="capture-form">
+            <form>
+                <div class="i">
+                    <div class="control">
+                        <label for="textTitle" class="form-label">Title</label>
+                        <input id="textTitle" type="text" class="form-control">
+                    </div>
+                    <div class="control">
+                        <label class="form-label">Important</label>
+                        <i id="iImportant" class="far fa-star"></i>
+                    <!--input id="checkboxImportant"type="checkbox" class="form-check-input"-->
+                    </div>
+                    <div class="control">
+                        <label class="form-label">Description</label>
+                        <textarea id="textDescription" type="text" class="form-control"></textarea>
+                    </div>
+                    <div class="control">
+                        <label class="form-label">Category</label>
+                        <select id="selCategory" type="Gooses" class="form-control">
+                            <option>Hobby</option>
+                            <option>Chores</option>
+                            <option>Work</option>
+                            <option>Family Activity</option>
+
+                        </select>
+
+                    </div>
+                    <div class="control">
+                        <label for="textLocation" class="form-label">Location</label>
+                        <input id="textLocation" type="text" class="form-control">
+                    </div>
+                    <div class="control">
+                        <label for="selDueDate" class="form-label">Due Date</label>
+                        <input id="selDueDate" type="datetime-local" class="form-control">
+                    </div>
+                    <div class="control">
+                        <label for="selColor" class="form-label">Color</label>
+                        <input id="selColor" type="color" class="form-control">
+                    </div>
+
+
+                </div>
+              </form>
+              <button type="btn btn-primary" class="btnSave">Save Task</button>
+        </section>
+        <section id="list">
+            I am a List!
+        </section>    
+    </main>
+
+<footer></footer>
+
+
+    <script src="./scripts/task.js"></script>
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/test.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!-- 
+Task:
+    title
+    important
+    description
+    category
+    location
+    duedate
+    color
+
+-->
